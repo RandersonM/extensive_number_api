@@ -12,7 +12,7 @@ E execute o arquivo app.py para iniciar o server
 
 ## Consumindo o server
 
-- Após iniciar o server com o host do app.py(foi setado o nome de localhost)
+- Após iniciar o server com o host do `app.py`(foi setado o nome de localhost)
 
 - Basta realizar um curl com o host e a porta(foi setada a porta 3000)
 
@@ -26,6 +26,6 @@ E o retorno será o objeto
 `{ "extenso": "menos cinco mil e quatrocentos e trinta e cinco" }
 `
 
-###OBS
+### OBS
 
 - O programa só trabalha com numeros inteiros, numeros com virgulas não são arrendados em inteiros
