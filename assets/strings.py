@@ -13,3 +13,5 @@ centena = ["", "cento ", "duzentos ", "trezentos ", "quatrocentos ", "quinhentos
            "oitocentos ", "novecentos "]
 
 milhar = "mil "
+
+type_value_error_msg = "Por favor insira um numero inteiro na faixa de [-99999:99999]"

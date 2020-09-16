@@ -17,8 +17,11 @@ def getExtensiveNumber(number):
     :param number:
     :return:
     """
-    path = "menos " if int(number) < 0 else ""
-    number = abs(int(number))
+    try:
+        path = "menos " if int(number) < 0 else ""
+        number = abs(int(number))
+    except ValueError or TypeError:
+        return {"erro" : strings.type_value_error_msg }
 
     path += numberToExtensive(((number // 1000) % 100), strings.milhar)
 
@@ -60,4 +63,4 @@ def numberToExtensive(number, place):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='localhost', port=3000)
