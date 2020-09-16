@@ -2,7 +2,7 @@
 
 Primeiramente baixe o repositorio
 
-`git clone git@github.com:RandersonM/extensive_number_api.git`
+`git clone git@github.com:RandersonM/simple_flask_rest.git`
 
 Instale as dependências com
 
