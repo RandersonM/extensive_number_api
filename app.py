@@ -63,4 +63,4 @@ def numberToExtensive(number, place):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='localhost', port=3000)
+    app.run(debug=True, host='0.0.0.0', port=3000)
